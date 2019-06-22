@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Buggy Beans</title>
+    <style>
+            .carousel {
+                width:100%;
+              }
+
+              .carousel-caption{
+                opacity:0;
+                transition:500ms ease-in-out;
+              }
+              .carousel-item:hover .carousel-caption{
+                opacity:1;
+              }
+              .overlay {
+                position: absolute;
+                bottom: 100%;
+                left: 0;
+                right: 0;
+                background-color: rgb(226, 60, 31);
+                overflow: hidden;
+                width: 100%;
+                height:0;
+                transition: .5s ease;
+              }
+              .card:hover .overlay {
+                bottom: 0;
+                height: 100%;
+              }
+              .text {
+                color: rgb(243, 239, 10);
+                font-size: 20px;
+                font-family:cursive;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+              }
+              h1 {
+                  text-align: center;
+                  background: rgb(9, 202, 202);
+                  margin: 0px;
+                text-shadow: 0 1px 0 #ccc,
+                             0 2px 0 #c9c9c9,
+                             0 3px 0 #bbb,
+                             0 4px 0 #b9b9b9,
+                             0 5px 0 #aaa,
+                             0 6px 1px rgba(0,0,0,.1),
+                             0 0 5px rgba(0,0,0,.1),
+                             0 1px 3px rgba(0,0,0,.3),
+                             0 3px 5px rgba(0,0,0,.2),
+                             0 5px 10px rgba(0,0,0,.25),
+                             0 10px 10px rgba(0,0,0,.2),
+                             0 20px 20px rgba(0,0,0,.15);
+              }
+
+    </style>
+</head>
+
+<body>
+<div class="container-fluid">
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" width="80" height="80" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">BuggyBeans <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">Series</a>
+                        </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Courses
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Udemy</a>
+                            <a class="dropdown-item" href="#">Coursera</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">About-Us</a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="container-fluid mx-auto">
+    <h1>BOLLYWOOD</h1>
+</div>
+<div class="container-fluid ">
+    <div class="row my-0 mx-auto bg-dark ">
+        <div class="card mx-auto my-2 " style="width: 18rem;">
+            <img class="card-img-top" src="https://i.ytimg.com/vi/TIQ5hrfermg/maxresdefault.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hera Pheri</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="overlay">
+                    <div class="text"><a>Download</a></div>
+                  </div>
+          </div>
+
+          <div class="card mx-auto my-2" style="width: 18rem;">
+            <img class="card-img-top" src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2016/07/15/482210-znmd.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Zindagi Na Milegi Dobara</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="overlay">
+                    <div class="text"><a>Download</a></div>
+                  </div>
+          </div>
+
+          <div class="card mx-auto my-2" style="width: 18rem;">
+            <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/81Iz2xeb1WL._SX425_.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Mere Brother Ki Dulhan</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <div class="overlay">
+                    <div class="text"><a>Download</a></div>
+                  </div>
+          </div>
+    </div>
+    <div class="row mx-auto bg-dark">
+            <div class="card mx-auto my-2" style="width: 18rem;">
+                <img class="card-img-top" src="https://i.ytimg.com/vi/cLBYaz1dplA/maxresdefault.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Stree</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 
+                </div>
+                <div class="overlay">
+                        <div class="text"><a>Download</a></div>
+                      </div>
+              </div>
+    
+              <div class="card mx-auto my-2" style="width: 18rem;">
+                <img class="card-img-top" src="https://i.ytimg.com/vi/vESk_zw8biA/maxresdefault.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Krrish</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+                <div class="overlay">
+                        <div class="text"><a>Download</a></div>
+                      </div>
+              </div>
+    
+              <div class="card mx-auto my-2" style="width: 18rem;">
+                <img class="card-img-top" src="https://english.cdn.zeenews.com/sites/default/files/2018/10/26/730710-baazaar.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Baazaar</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+                <div class="overlay">
+                        <div class="text"><a>Download</a></div>
+                      </div>
+              </div>
+        </div>
+
+</div>
+
+<div class="container-fluid ">
+    <!-- Footer -->
+<footer class="page-footer font-small blue bg-dark text-white">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:Buggy Beans
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+</div>
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
